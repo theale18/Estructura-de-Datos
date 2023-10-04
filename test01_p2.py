@@ -1,3 +1,13 @@
+"""
+En la Universidad se esta desarrollando un software para la 
+asignacion de aulas para las materias en los edificios de la 
+Universidad. Un aula se define con 2 cosas:
+-  Nombre de la Materia
+-  Cantidad de Alumnos
+
+
+"""
+
 class Materia:
   def __init__(self, nombre, cantAlum):
     self._nombre = nombre
